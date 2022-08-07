@@ -1,4 +1,3 @@
-// Import stylesheets
 import './style.css';
 // import myinterface from './interface'
 // import mydecorator from './decorator'
