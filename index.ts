@@ -1,8 +1,9 @@
 import './style.css';
-// import myinterface from './interface'
-// import mydecorator from './decorator'
-import toturial from './toturial'
-import classFunction from './class'
+import myinterface from './interface';
+import mydecorator from './decorator';
+import toturial from './toturial';
+import classFunction from './class';
+import enumTest from './enum';
 // Write TypeScript code!
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
@@ -10,4 +11,5 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 // myinterface()
 // mydecorator()
 // toturial()
-classFunction()
+classFunction();
+enumTest();
